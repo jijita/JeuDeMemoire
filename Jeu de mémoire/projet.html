@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercice 08</title>
+<meta charset="utf-8" />
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<link rel="stylesheet"
+	href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<script
+	src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<link rel="stylesheet"
+	href="projet.css">
+<!-- Latest compiled and minified CSS -->
+
+<script src="final.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="page-header col-xs-12 col-lg-10 text-center">
+				<h1>
+					Jeu de Memoire<small> &nbsp &nbsp &nbsp Commencer...</small>
+				</h1>
+			</div>
+
+		</div>
+		
+		
+		
+		<div class="row">
+			<div class="span6 well">
+				<div id="carousel-example-generic" class="carousel" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img id="photo1" src="images/tigres.jpg" alt="" />
+						</div>		
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">	
+			<div class="col-lg-12" style="">
+				<div id="tableau" name="jeu" class="col-xs-12 col-lg-7  panel panel-primary">	
+				</div>	
+				
+				<div class="col-xs-12 col-lg-5 btn-group-vertical" style="margin-top: -4px;" >
+						<input id="nouveau" class="btn btn-lg btn-success col-lg-6" type="button" value="Nouvelle partie" />
+						<input id="pause" class="btn btn-lg btn-primary col-lg-6" type="button" value="Pause" /> 
+						<input id="continuer" class="btn btn-lg btn-primary col-lg-6" type="button" value="Continuer" /> 
+						<input id="quitter" class="btn btn-lg btn-success col-lg-6" type="button" value="Quitter" />
+				</div>
+				
+				<div id="Affichage" class="col-xs-12 col-lg-5 pull-right style="margin-top: 1px;">
+						
+						<label class="col-xs-12 col-lg-6 label-warning" >Meilleurscore:</label> 
+						<input class="input-lg col-xs-12 col-lg-6 " type="text" id="BestScore" readonly="true" /> 
+						<label class="col-xs-12 col-lg-6 label-warning">Meilleur Temps:</label> 
+						<input class="input-lg col-xs-12 col-lg-6" type="text" id="MeilleurTemps" readonly="true" />
+						<label class="col-xs-12 col-lg-6 label-warning">Temps:</label> 
+						<input class="input-lg col-xs-12 col-lg-6" type="text" id="temps" readonly="true" /> 
+						<label class="col-xs-12 col-lg-6 label-warning">Score:</label> 
+						<input class="input-lg col-xs-12 col-lg-6" type="text" id="score"readonly="true" />
+						
+				
+					
+						<label class="col-xs-12 col-lg- label-warning">Difficulte:</label> 
+						<select id="select" class="form-control col-xs-12 col-lg-4 ">
+						  <option id="8" value="8">8 images</option>
+						  <option id="12" value="12">12 images</option>
+						  <option id="16" value="16">16 images</option>				
+						</select>
+					
+					<div class= " panel panel-primary hidden-xs col-xs-12 col-lg-12"  style="">
+
+						<p class="align-left text-info"> 
+							<ul> 
+								<li> ous pouvez choisir ci dessus un niveau de 8 - 12 ou 16 paires de photos à deviner</li>
+								<li> Vous devez trouvez toutes les paires rapidement possible.</li>
+								<li> Votre score augmentera selon le temps.</li>
+								<li> Le moins de temps , que tu reste le plus de score que tu gagne</li>		
+							</ul>
+							
+						</p>
+					
+						<a href="https://www.facebook.com/AremTechnology?fref=ts" target=_blank> <img id="photo1" src="images/facebook.jpg" alt="" /></a>
+					</div>
+
+
+
+				</div>
+			
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class="modal fade">
+		<div class="alert alert-warning alert-dismissable">
+		  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		  <strong>Vous avez fini!</strong> Vous avez un score de: 
+		  <span id="scoreAf"></span> points et un temps de:
+		  <span id="tempsAf"></span> secondes.
+		  
+		</div>
+	</div>
+</body>
+</html>

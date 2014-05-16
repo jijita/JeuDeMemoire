@@ -1,0 +1,104 @@
+<style>
+body {
+	font-size: 17px;
+	  margin: 0;
+     background: url('https://www.google.com/images/srpr/logo3w.png');
+     background-size: 1440px 800px;
+     background-repeat:no-repeat;
+    display: compact;
+     font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+	margin-bottom: 24px;
+	margin-top: 10px;
+}
+
+.nav-pills>li>a {
+	border-radius: 27px;
+}
+
+label {
+	margin-bottom: 20px;
+}
+
+input {
+	margin-bottom: 20px;
+}
+
+.nav {color = red;
+	
+}
+
+.nav-pills>li.active>a {
+	background-color: gray;
+}
+
+h1 {
+	//color: #218D2A;
+}
+
+li>a {
+	color: red;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+color: #fff;
+background-color: #52A55C;
+}
+
+.btn-primary {
+	background-color: #D55811;
+}
+
+p {margin-right =10px;
+	
+}
+
+.panel-primary {
+	border-color: green;
+}
+
+.panel {
+	margin-bottom: 51px;
+	border-radius: 12px;
+}
+.btn-success {
+color: #fff;
+background-color: rgba(127, 204, 28, 0.97);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+color: #fff;
+background-color: #47a447;
+}
+}
+
+.btn-primary {
+	border-color: rgba(236, 232, 229, 0.13);
+}
+
+.btn-danger {
+	color: #fff;
+	background-color: rgba(127, 204, 28, 0.67);
+	border-color: #A39D9D;
+	}
+.input-lg {
+height: 46px;
+padding: 19px 91px;
+}
+.col-lg-6 {
+width: 49%;
+}
+
+.col-lg-3 {
+width: 23%;
+
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+position: relative;
+min-height: 2px;
+padding-right: 10px;
+padding-left: 33px;
+}
+</style>
